@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View More Photos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Reset styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* General styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ccc;
+    }
+
+    .logo img {
+      max-width: 300px;
+      height: auto;
+    }
+
+    /* Gallery styles */
+    .gallery {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-item:hover .caption {
+      opacity: 1;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ccc;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="salmanwebsite.html">GULMIT</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Attractions</a></li>
+            <li><a href="more.html">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="such.jpg" alt="Gulmit's Beauty">
+          <div class="caption">Gulmit's Beauty</div>
+        </div>
+        <div class="gallery-item">
+          <img src="dsc00020.jpg" alt="Gulmit's Landscape">
+          <div class="caption">Gulmit's Landscape</div>
+        </div>
+      
+        <div class="gallery-item">
+          <img src="such.jpg" alt="Gulmit's Beauty">
+          <div class="caption">Gulmit's Beauty</div>
+        </div>
+        <div class="gallery-item">
+          <img src="dsc00020.jpg" alt="Gulmit's Landscape">
+          <div class="caption">Gulmit's Landscape</div>
+        </div>
+        <div class="gallery-item">
+          <img src="DSC00006.JPG" alt="Gulmit's Historic Polo Ground">
+          <div class="caption">Gulmit's Historic Polo Ground</div>
+      </div>
+        <p>  
+        Gulmit is a centuries-old village with gigantic mountains, peaks, and glaciers. It is situated in the upper Hunza region of Pakistan, known as the "valley of flowers." The village is home to around 8,000 people who are all Wakhi speakers and followers of Imam. Gulmit is a tourist hotspot, offering a unique experience for visitors. The village has a rich history, with the old summer palace of the Mir of Hunza standing at the northern end of the historic polo ground. The old mosques are now used as libraries, showcasing the village's cultural heritage. The village is surrounded by big glaciers that provide fresh water to the villagers. This water is also used for irrigation of crops, wheat, potatoes, and vegetation. In the winter, the water freezes to ice, but the villagers enjoy the fresh water in the summer.
+        </p>
+
+        <p>
+        Gulmit is a place where tourists can experience the beauty of nature and the rich culture of the region. The village offers many attractions, including the Gulmit Tower Peak, which has yet to be climbed, and the Shutabur Meadows, located at the foot of the Gulmit tower. The village is also a paradise for rock climbers, with many opportunities for learning and enjoying the sport.
+        </p>
+        <p>
+        In the winter, Gulmit transforms into a hard, icy place, with temperatures falling steadily from December to February. However, the temperature rises slowly in March, and by April, the weather becomes warm, with grasses growing and the traditional culture of "Tax^im" being celebrated.
+        </p>
+        <p>
+        Gulmit is a place where people can connect with nature and experience the beauty of the Himalayas.</p>
+        </p>
+  <footer>
+    <p>&copy; 2016 GULMIT. All rights reserved.</p>
+    <p>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </p>
+  </footer>
+</body>
+</html>
